@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="readAll()">
+    <div class="container">
+<h1>CONTACT MANAGER</h1>
+<h2>Add Contact</h2>
+<div class="createform">
+    <form >
+        <label>Name</label>
+        <input type="text" class="name" placeholder="enter your name">
+        <label>Email Address</label>
+        <input type="email" class="email" placeholder="enter your email"> 
+        <label>Categories</label>
+        <select><option>School</option>
+        <option>College</option>
+        <option>Work</option>
+    </select>
+        
+    </form>
+        <button type="submit" onclick="add()">Submit</button>
+</div>
+<hr>
+<div class="h"></div>
+    </div>
+    <script src="c.js"></script>
+</body>
+</html>
